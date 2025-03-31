@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans; /* Tailwind-Klasse für die Schriftart */
+}
+
+/* Überschreibe die Schriftart für alle MuiTypography-Komponenten */
+.MuiTypography-root {
+  font-family: "Trebuchet MS", sans-serif !important; /* Erzwinge die Schriftart */
+}
+
+/* Überschreibe die Schriftart für alle MuiButton-Komponenten */
+.MuiButton-root {
+  font-family: "Trebuchet MS", sans-serif !important; /* Erzwinge die Schriftart */
+}
+
